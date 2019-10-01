@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="some description about web site">
+    <title>todos</title>
+    <style>
+        .todos-expand-list-icon {
+            background-image: url(icons/select-all.png);
+            height: 12px;
+            width: 24px;
+        }
+        .todos-close-item-icon {
+            background-image: url(icons/close.png);
+            height: 18px;
+            width: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="todos-container">
+        <header class="todos-header">
+            <h1>TODOS</h1>
+        </header>
+        <div class="todos-selection-window">
+            <div class="todos-input-field">
+                <div class="todos-expand-list-icon" title="expand icon"></div>
+                <input type="text" placeholder="What needs to be done?">
+            </div>
+            <div class="todos-list-container">
+                <ul class="todos-list">
+                    <li class="todos-list-item">
+                        <input type="checkbox">
+                        <span><b>HTML</b></span>
+                        <div class="todos-close-item-icon" title="close"></div>
+                    </li>
+                    <li class="todos-list-item">
+                        <input type="checkbox">
+                        <span><b>CSS</b></span>
+                        <div class="todos-close-item-icon" title="close"></div>
+                    </li>
+                    <li class="todos-list-item">
+                        <input type="checkbox">
+                        <span><b>JS</b></span>
+                        <div class="todos-close-item-icon" title="close"></div>
+                    </li>
+                    <li class="todos-list-item">
+                        <input type="checkbox">
+                        <span><b>JS tools</b></span>
+                        <div class="todos-close-item-icon" title="close"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="todos-action-bar">
+                 <span class="todos-action-bar-record">3 item left</span>
+                 <div class="todos-action-bar-buttons">
+                     <button name="button-all">All</button>
+                     <button name="button-active">Active</button>
+                     <button name="button-completed">Completed</button>
+                     <button name="button-clear">Clear completed</button>
+                 </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
