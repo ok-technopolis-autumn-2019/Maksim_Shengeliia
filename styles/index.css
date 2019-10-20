@@ -1,0 +1,103 @@
+
+body {
+    background: #f2ecec;
+}
+
+.todos-container {
+    text-align: center;
+    font-size: medium;
+}
+
+.todos-header {
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    color: #c5bbc0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+.todos-main {
+    padding: 0;
+    margin: 0 auto;
+    width: 70%;
+    background-color: #ffffff;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.control-select-all {
+
+    display: inline-block;
+}
+
+.control-select-all-button {
+    background: url(../icons/select-all.png) no-repeat 0 0;
+    background-size: contain;
+    border: none;
+    margin: 10px;
+    width: 24px;
+    height: 12px;
+
+}
+
+.control-create-new {
+    display: inline-block;
+}
+
+.control-create-new-input {
+    border: none;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.todos-tasks-list {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px 0;
+    border-bottom: 1px solid #c5bbc0;
+    border-top: 1px solid #c5bbc0;
+}
+
+input[type="checkbox"] {
+}
+
+.checkbox-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-right: 12px;
+    width: 40px;
+    height: 40px;
+}
+
+.checkbox {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 100px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+}
+
+.task-item-delete {
+    background: url(../icons/close@2x.png) no-repeat 0 0;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+.task-item-text {
+
+}

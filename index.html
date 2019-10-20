@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Some description about web site">
+    <link rel="stylesheet" href="styles/index.css" type="text/css"/>
     <title>todos</title>
 </head>
 <body>
     <div class="todos-container">
         <header class="todos-header">
-            <h1 class="title">TODOS</h1>
+            <h1 class="title">todos</h1>
         </header>
         <main class="todos-main">
             <section class="todos-control-panel">
                 <div class="control-select-all">
-                    <button class="control-select-all-button">Select all tasks</button>
+                    <button class="control-select-all-button"></button>
                 </div>
                 <div class="control-create-new">
                     <input class="control-create-new-input" type="text" autofocus="autofocus"
@@ -24,11 +25,14 @@
                 <ul class="todos-tasks-list">
                     <li class="todos-task-item">
                         <div class="task-item-view">
-                            <input class="task-item-status"
-                                   type="checkbox"
-                                   aria-label="Complete task: HTML">
+                            <div class="checkbox-wrapper">
+                                <input class="task-item-status"
+                                       type="checkbox"
+                                       aria-label="Complete task: HTML">
+                                <span class="checkbox"></span>
+                            </div>
                             <span class="task-item-text">HTML</span>
-                            <button class="task-item-delete">Delete</button>
+                            <button class="task-item-delete"></button>
                         </div>
                         <div class="task-item-edit" hidden="hidden">
                             <input class="task-item-input"
@@ -39,11 +43,14 @@
                     </li>
                     <li class="todos-task-item">
                         <div class="task-item-view">
-                            <input class="task-item-status"
-                                   type="checkbox"
-                                   aria-label="Complete task: CSS">
+                            <div class="checkbox-wrapper">
+                                <input class="task-item-status"
+                                       type="checkbox"
+                                       aria-label="Complete task: CSS">
+                                <span class="checkbox"></span>
+                            </div>
                             <span class="task-item-text">CSS</span>
-                            <button class="task-item-delete">Delete</button>
+                            <button class="task-item-delete"></button>
                         </div>
                         <div class="task-item-edit" hidden="hidden">
                             <input class="task-item-input"
@@ -54,11 +61,13 @@
                     </li>
                     <li class="todos-task-item">
                         <div class="task-item-view">
-                            <input class="task-item-status"
-                                   type="checkbox"
-                                   aria-label="Complete task: JS">
-                            <span class="task-item-text">JS</span>
-                            <button class="task-item-delete">Delete</button>
+                            <div class="checkbox-wrapper">
+                                <input class="task-item-status"
+                                       type="checkbox"
+                                       aria-label="Complete task: JS">
+                                <span class="checkbox">JS</span>
+                            </div>
+                            <button class="task-item-delete"></button>
                         </div>
                         <div class="task-item-edit" hidden="hidden">
                             <input class="task-item-input"
@@ -69,11 +78,14 @@
                     </li>
                     <li class="todos-task-item">
                         <div class="task-item-view">
-                            <input class="task-item-status"
-                                   type="checkbox"
-                                   aria-label="Complete task: JS Tools">
+                            <div class="checkbox-wrapper">
+                                <input class="task-item-status"
+                                       type="checkbox"
+                                       aria-label="Complete task: JSTools">
+                                <span class="checkbox"></span>
+                            </div>
                             <span class="task-item-text">JS Tools</span>
-                            <button class="task-item-delete">Delete</button>
+                            <button class="task-item-delete"></button>
                         </div>
                         <div class="task-item-edit" hidden="hidden">
                             <input class="task-item-input"
