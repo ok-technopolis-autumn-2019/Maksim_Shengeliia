@@ -1,0 +1,23 @@
+{
+  "name": "maksim_shengeliia",
+  "version": "1.0.0",
+  "description": "This is Todo App created by Shengeliia Maksim",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ok-technopolis-autumn-2019/Maksim_Shengeliia.git"
+  },
+  "author": "Shengeliia Maksim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ok-technopolis-autumn-2019/Maksim_Shengeliia/issues"
+  },
+  "homepage": "https://github.com/ok-technopolis-autumn-2019/Maksim_Shengeliia#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}
