@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300&display=swap');
-@import "color-sheme";
+@import "properties";
 
 body {
-  background: $background;
-  font-family: $font;
+  background: $body_background;
+  font-family: $font_main;
 }
 
 .todos-container {
@@ -37,13 +37,13 @@ body {
 .title {
   margin: 10px;
   font-size: 70px;
-  color: $title;
+  color: $header_title;
 }
 
 .todos-main {
   order: 2;
   position: relative;
-  background-color: $panel;
+  background-color: $panel_background;
   box-shadow: 0 1px 5px 1px #c7c7c7;
   margin: 0 auto;
   width: 60%;
@@ -64,7 +64,7 @@ body {
   width: 65px;
   height: 100%;
   margin-right: 1px;
-  background: $img-select-all;
+  background: $ic_select_all;
   background-size: 24px 12px;
 }
 
@@ -86,7 +86,7 @@ body {
 .tasks {
   flex-grow: 1;
   overflow: auto;
-  color: $text;
+  color: $text_color;
 }
 .tasks__inner {
   list-style: none;
@@ -110,7 +110,7 @@ body {
 }
 
 .item-view:hover {
-  background-color: $item-hover;
+  background-color: $item_hover;
 }
 
 .item-view__checkbox {
@@ -135,7 +135,7 @@ body {
   display: block;
   border-radius: 20px;
   background: #FFFFFF;
-  border: 1px solid #E6E6E6;
+  border: 1px solid $checkbox_border__unchecked;
   box-sizing: border-box;
 }
 
@@ -144,8 +144,8 @@ body {
 }
 
 .checkbox-status:checked ~ .checkbox {
-  border: $checkbox-border;
-  background: $img-competed;
+  border: 1px solid $checkbox_border__checked;
+  background: $ic_competed;
   background-size: 20px 20px;
 }
 
@@ -166,7 +166,7 @@ body {
 }
 
 .item-view__delete:focus {
-  background: $img-close;
+  background: $ic_close;
   background-size: 25px 25px;
   width: 34px;
   height: 34px;
@@ -174,7 +174,7 @@ body {
 }
 
 .item-view:hover .item-view__delete {
-  background: $img-close;
+  background: $ic_close;
   background-size: 25px 25px;
   width: 34px;
   height: 34px;
@@ -195,7 +195,7 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 14px;
-  color: $text;
+  color: $text_color;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -227,16 +227,16 @@ body {
 }
 
 .filter__input:checked ~ .filter__text {
-  border: 1px solid #CCCCCC;
+  border: 1px solid $radio_border;
   border-radius: 5px;
 
 }
 
 .action-clear {
-  font-family: $font;
+  font-family: $font_main;
   padding: 5px;
   background-color: white;
-  color: $text;
+  color: $text_color;
   border: 1px solid transparent;
 }
 

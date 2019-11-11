@@ -1,12 +1,15 @@
-$background: #f7f1f1;
-$title: #d27e7b;
-$checkbox-border: 1px solid mediumseagreen;
-$text: #888888;
-$panel: #ffffff;
-$item-hover: #f3f4f2;
-$font: 'Roboto', sans-serif;
+$body_background: #f7f1f1;
+$header_title: #d27e7b;
+$checkbox_border__checked: #3bb36d;
+$checkbox_border__unchecked: #E6E6E6;
+$radio_border: #CCCCCC;
+$text_color: #888888;
+$panel_background: #ffffff;
+$item_hover: #f3f4f2;
+$font_main: 'Roboto', sans-serif;
 
-$img-close: url(../icons/close.svg) no-repeat center center;
-$img-competed: white url(../icons/completed.svg) no-repeat center center;
-$img-select-all: white url(../icons/select-all.svg) no-repeat center center;
+
+$ic_close: url(../icons/close.svg) no-repeat center center;
+$ic_competed: white url(../icons/completed.svg) no-repeat center center;
+$ic_select_all: white url(../icons/select-all.svg) no-repeat center center;
 

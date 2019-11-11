@@ -1,11 +1,4 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="20.000000pt" height="20.000000pt" viewBox="0 0 20.000000 20.000000"
- preserveAspectRatio="xMidYMid meet">
-
-<g transform="translate(0.000000,20.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-</g>
+<svg width="20" height="20" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M19 1.00001L21 2.00004L9.00002 21V18L19 1.00001Z" fill="#5DC2AF"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.89002 12.9056L3.00005 11L10 19L9.00002 21L1.89002 12.9056Z" fill="#5DC2AF"/>
 </svg>
