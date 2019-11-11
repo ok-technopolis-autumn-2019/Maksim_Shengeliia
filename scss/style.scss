@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300&display=swap');
-@import "retina";
-
-$background: #f7f1f1;
-$title: #d27e7b;
-$checkbox-border: 1px solid mediumseagreen;
-$text: #888888;
-$panel: #ffffff;
-$item-hover: #f3f4f2;
-$font: 'Roboto', sans-serif;
-$img-close: url(../icons/close@2x.png) no-repeat center center;
-$img-competed: white url(../icons/completed@2x.png) no-repeat center center;
-$img-select-all: white url(../icons/select-all@2x.png) no-repeat center center;
+@import "color-sheme";
 
 body {
   background: $background;
