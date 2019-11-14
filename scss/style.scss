@@ -16,18 +16,18 @@ body {
   width: 59%;
   content: "";
   order: 3;
-  background: white;
+  background: $panel_background;
   z-index: 1;
-  box-shadow: 0 1px 5px 1px #c7c7c7;
+  box-shadow: 0 1px 5px 1px $box_shadow;
 }
 .todos-container::after {
   height: 5px;
   width: 58%;
   content: "";
   order: 4;
-  background: white;
+  background: $panel_background;
   z-index: 0;
-  box-shadow: 0 1px 5px 1px #c7c7c7;
+  box-shadow: 0 1px 5px 1px $box_shadow;
 }
 
 .todos-header {
@@ -44,7 +44,7 @@ body {
   order: 2;
   position: relative;
   background-color: $panel_background;
-  box-shadow: 0 1px 5px 1px #c7c7c7;
+  box-shadow: 0 1px 5px 1px $box_shadow;
   margin: 0 auto;
   width: 60%;
   z-index: 3;
@@ -56,7 +56,7 @@ body {
   flex-direction: row;
   padding-bottom: 2px;
   align-items: center;
-  box-shadow: inset 0 -1px 0 #E6E6E6;
+  box-shadow: inset 0 -0.7px 0 $box_shadow;
 }
 
 .control-panel__button {
@@ -102,7 +102,7 @@ body {
 .item-view {
   display: flex;
   align-content: space-between;
-  box-shadow: inset 0 -1px 0 #E6E6E6;
+  box-shadow: inset 0 -0.7px 0 $box_shadow;
   min-height: 64px;
   padding: 12px;
   box-sizing: border-box;
@@ -134,7 +134,7 @@ body {
   left: 0;
   display: block;
   border-radius: 20px;
-  background: #FFFFFF;
+  background: $checkbox_background;
   border: 1px solid $checkbox_border__unchecked;
   box-sizing: border-box;
 }
@@ -161,7 +161,7 @@ body {
   width: 34px;
   height: 34px;
   border: none;
-  background-color: white;
+  background-color: $delete_background;
   flex-shrink: 0;
 }
 
@@ -235,13 +235,13 @@ body {
 .action-clear {
   font-family: $font_main;
   padding: 5px;
-  background-color: white;
+  background-color: $panel_background;
   color: $text_color;
   border: 1px solid transparent;
 }
 
 .action-clear:focus {
-  border: 1px solid #CCCCCC;
+  border: 1px solid $radio_border;
   outline: none;
   border-radius: 5px;
 }
