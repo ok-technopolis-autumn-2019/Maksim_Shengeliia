@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="Some description about web site">
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <script src="javascript/index.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>todos</title>
 </head>
@@ -25,11 +26,12 @@
                             <label class="item-view__checkbox">
                                 <input class="checkbox-status"
                                        type="checkbox"
+                                       onchange="checkboxHandler(this)"
                                        aria-label="Complete task: HTML">
                                 <span class="checkbox"></span>
                             </label>
                             <span class="item-view__text">HTML</span>
-                            <button class="item-view__delete"></button>
+                            <button class="item-view__delete" onclick="removeRow(this)"></button>
                         </div>
                         <div class="item-edit" hidden="hidden">
                             <input class="item-edit__input"
@@ -43,11 +45,12 @@
                             <label class="item-view__checkbox">
                                 <input class="checkbox-status"
                                        type="checkbox"
+                                       onchange="checkboxHandler(this)"
                                        aria-label="Complete task: CSS">
                                 <span class="checkbox"></span>
                             </label>
                             <span class="item-view__text">CSS</span>
-                            <button class="item-view__delete"></button>
+                            <button class="item-view__delete" onclick="removeRow(this)"></button>
                         </div>
                         <div class="item-edit" hidden="hidden">
                             <input class="item-edit__input"
@@ -61,11 +64,12 @@
                             <label class="item-view__checkbox">
                                 <input class="checkbox-status"
                                        type="checkbox"
+                                       onchange="checkboxHandler(this)"
                                        aria-label="Complete task: JS">
                                 <span class="checkbox"></span>
                             </label>
                             <span class="item-view__text">JS</span>
-                            <button class="item-view__delete"></button>
+                            <button class="item-view__delete" onclick="removeRow(this)"></button>
                         </div>
                         <div class="item-edit" hidden="hidden">
                             <input class="item-edit__input"
@@ -79,11 +83,12 @@
                             <label class="item-view__checkbox">
                                 <input class="checkbox-status"
                                        type="checkbox"
+                                       onchange="checkboxHandler(this)"
                                        aria-label="Complete task: JSTools">
                                 <span class="checkbox"></span>
                             </label>
                             <span class="item-view__text">JS Tools</span>
-                            <button class="item-view__delete"></button>
+                            <button class="item-view__delete" onclick="removeRow(this)"></button>
                         </div>
                         <div class="item-edit" hidden="hidden">
                             <input class="item-edit__input"
@@ -115,7 +120,7 @@
                     </div>
                 </div>
                 <div class="action-bar__item" aria-label="Clear all tasks">
-                    <button class="action-clear">Clear all</button>
+                    <button class="action-clear" onclick="clearAll()">Clear all</button>
                 </div>
             </section>
         </main>
